@@ -5,10 +5,12 @@ header {
     margin: 0 auto;
     margin-bottom: 50px;
     width: auto;
+
 }
 
 a {
     text-decoration: none;
+    color: #999;
 }
 
 nav.topNav {
@@ -58,13 +60,20 @@ nav.topNav {
 }
 
 input[type=button] {
-    background-color: #666;
+    background-color: #e6e6e6;
     border: none;
     color: black;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.mainButtons {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
 }
 
 footer {
